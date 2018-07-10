@@ -1,6 +1,11 @@
 body {
     background: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    justify-content: center;
 }
 .btn-outline-secondary {
     background: rgb(30, 109, 19);
@@ -9,4 +14,7 @@ body {
 input[type=text], textarea {
     background: black;
     color: rgb(30, 109, 19)
+}
+.strike {
+    text-decoration: line-through;
 }
